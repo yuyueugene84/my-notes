@@ -53,3 +53,18 @@ GIT SETUP
   git config --global credential.helper store
 
   this will store your git credential permanently
+
+Once you're done creating a new rails app, make sure you:
+
+  1. bundle install
+    1.1 If the bundle install fails, and error message says:
+      bundle command not listed, then do 
+
+      gem install bundler
+
+    1.2 Some projects will use rmagick gem, which requires imagemagick library, make sure you install it:
+
+      Mac:
+        brew install imagemagick
+
+      Linux:
