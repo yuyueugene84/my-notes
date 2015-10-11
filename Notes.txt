@@ -38,4 +38,8 @@ GIT SETUP
 
   And git should ask you for username and password, just set them up and you should be able to push to github with https instead of SSH
 
+  Of course, you don't want to enter username and password everytime you push to remote repository, so:
 
+  git config --global credential.helper cache
+
+  this command will cache your github credential 
