@@ -68,3 +68,4 @@ Once you're done creating a new rails app, make sure you:
         brew install imagemagick
 
       Linux:
+        sudo apt-get install imagemagick 
