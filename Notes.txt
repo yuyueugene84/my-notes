@@ -1,6 +1,8 @@
 Ubuntu Linux Setup Notes:
 
-  If you are a windows user, I highly recommend you set up the delveoping environment using VM, (for example, VirtualBox + Ubuntu), because ruby on rails is simple not optmized for windows, sooner or later you will encounter gem / dependencies related bugs that you cannot fix.
+Why Linux?
+
+  If you are a windows user, I highly recommend you set up the delveoping environment using VM, (for example, VirtualBox + Ubuntu), because ruby on rails is simple not optmized for windows, sooner or later you will encounter gem / dependencies related bugs that you cannot fix, to save yourself from this kind of trouble, it is better to simple switch to Linux or Mac.
 
 Follow the step-by-step installation guide here:
 
