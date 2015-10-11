@@ -7,6 +7,7 @@ Why Linux?
 Follow the step-by-step installation guide here:
 
   https://gorails.com/setup/ubuntu/15.04
+  https://www.gotealeaf.com/blog/how-to-install-ruby-on-rails-development-environment-for-linux
 
 TERIMINAL SETUP
 
