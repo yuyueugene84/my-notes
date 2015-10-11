@@ -1,0 +1,32 @@
+Ubuntu Linux Setup Notes:
+
+TERIMINAL SETUP
+
+    Color the prompt:
+    
+    1. subl ~/.bashrc
+    2, force_color_prompt=yes
+
+SUBLIME SETUP
+
+    1. bottom right corner: Indent using space, tab width: 2
+
+GIT SETUP
+
+    Don't use ssh!
+
+    If you clone GitHub repositories using SSH, then you authenticate using SSH keys instead of a username and password. For help setting up an SSH connection, see Generating SSH Keys.
+
+    1. $ git config --global credential.helper cache
+    # Set git to use the credential memory cache
+
+    2. $ git config --global credential.helper 'cache --timeout=3600'
+    # Set the cache to timeout after 1 hour (setting is in seconds)
+
+    Simply by adding remote brach to local git: 
+    $git remote add origin https://github.com/yuyueugene84/my-notes.git
+    $git push origin master
+
+    And git should ask you for username and password, just set them up and you should be able to push to github with https instead of SSH
+
+
