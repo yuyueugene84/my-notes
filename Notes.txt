@@ -31,6 +31,11 @@ GIT SETUP
   #2. $ git config --global credential.helper 'cache --timeout=3600'
   # Set the cache to timeout after 1 hour (setting is in seconds)
 
+  #3. to permanently store git credential, use the following command:
+
+  git config --global credential.helper store
+
+
   **Simply by adding remote brach to local git: **
   
   $git remote add origin https://github.com/yuyueugene84/my-notes.git
@@ -43,3 +48,7 @@ GIT SETUP
   git config --global credential.helper cache
 
   this command will cache your github credential 
+
+  git config --global credential.helper store
+
+  this will store your git credential permanently
