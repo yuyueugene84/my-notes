@@ -13,7 +13,7 @@ TERIMINAL SETUP
     Color the prompt:
     
   1. subl ~/.bashrc
-  2, force_color_prompt=yes
+  2. force_color_prompt=yes
 
 SUBLIME SETUP
 
