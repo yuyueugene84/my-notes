@@ -2,7 +2,7 @@ Ubuntu Linux Setup Notes:
 
 Why Linux?
 
-  If you are a windows user, I highly recommend you set up the delveoping environment using VM, (for example, VirtualBox + Ubuntu), because ruby on rails is simple not optmized for windows, sooner or later you will encounter gem / dependencies related bugs that you cannot fix, to save yourself from this kind of trouble, it is better to simple switch to Linux or Mac.
+  If you are a windows user, I highly recommend you set up the delveoping environment using VM, (for example, VirtualBox + Ubuntu), because ruby on rails is simply not optmized for windows, sooner or later you will encounter gem / dependencies related bugs that you cannot fix, to save yourself from this kind of trouble, it is better to simple switch to Linux or Mac.
 
 Follow the step-by-step installation guide here:
 
@@ -11,7 +11,7 @@ Follow the step-by-step installation guide here:
 
 TERIMINAL SETUP
 
-    Color the prompt:
+  Color the prompt:
     
   1. subl ~/.bashrc
   2. force_color_prompt=yes
@@ -69,3 +69,12 @@ Once you're done creating a new rails app, make sure you:
 
       Linux:
         sudo apt-get install imagemagick 
+
+Finally, enter:
+
+  rails server
+
+  to start the rails server, open your browser, goto localhost:3000/, and you should see welcome page
+
+
+Congratulations! You have successfully installed Ruby on Rails on Ubuntu, you are all set for the course.
